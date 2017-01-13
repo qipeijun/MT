@@ -1,0 +1,47 @@
+*,::before,::after{
+	margin: 0;
+	padding: 0;
+	border: none;
+	/*盒子计算模式*/
+box-sizing:border-box;
+	/*处理高亮显示，长按就不会高亮的bug*/
+	-webkit-tap-highlight-color: transparent;
+}
+body{
+	font-family: "微软雅黑";
+font-size:0.22rem;
+	position: relative;
+line-height:1;
+min-width:3.2rem;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+ul,li{
+	list-style: none;
+}
+dl,dt,dd{
+list-style:none;
+margin:0;
+padding:0;
+border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
